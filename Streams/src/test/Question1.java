@@ -29,6 +29,8 @@ public class Question1 {
 		 int res=list.stream().mapToInt(x->x.population).sum();
 		System.out.println(res);
 		System.out.println("End of program");
+		System.out.println("End of program");
+		System.out.println("End of program");
 
 	}
 	
