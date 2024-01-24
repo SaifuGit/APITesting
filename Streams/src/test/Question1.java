@@ -25,7 +25,6 @@ public class Question1 {
 		 OptionalInt res2=list.stream().mapToInt(x->x.diameter).min();
 			System.out.println(res2.getAsInt());
 
-		 int pop=0;
 		 System.out.println(op.get().diameter);
 		 int res=list.stream().mapToInt(x->x.population).sum();
 		System.out.println(res);
