@@ -30,6 +30,8 @@ public class Question1 {
 		 System.out.println(op.get().diameter);
 		 int res=list.stream().mapToInt(x->x.population).sum();
 		System.out.println(res);
+		System.out.println("End of program");
+
 	}
 	
 
