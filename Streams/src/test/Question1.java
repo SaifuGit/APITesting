@@ -20,6 +20,8 @@ public class Question1 {
 		list.add(new Planet("Dagobah", 8900, 0));
 		list.add(new Planet("Endor",  4900, 30000000));
 		list.add(new Planet("Endor",  4900, 30000000));
+		list.add(new Planet("Earth",  1, 2));
+
 		 Optional<Planet> op=list.stream().sorted((p1,p2) ->Integer.compare(p1.diameter, p2.diameter))
 		.findFirst();
 		 OptionalInt res2=list.stream().mapToInt(x->x.diameter).min();
